@@ -15,7 +15,7 @@ router
     .post('/create', moviesController.create)
     .get('/edit/:id', moviesController.edit)
     .put('/update/:id', moviesController.update)
-    .get('/delete/:id', moviesController.delete)
-    .delete('', moviesController.destroy);
+ /*    .get('/delete/:id', moviesController.delete)
+    .delete('', moviesController.destroy); */
 
 module.exports = router;
